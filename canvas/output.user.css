@@ -7,7 +7,7 @@
 @updateURL    https://raw.githubusercontent.com/ryan28561/styles/master/canvas/output.user.css
 @advanced color primary-color "Primary color" #360297
 ==/UserStyle== */
-@-moz-document domain("*.instructure.com") {
+@-moz-document domain("instructure.com") {
 body {
   background-color: #212121;
   color: #efefef; }
