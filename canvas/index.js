@@ -9,7 +9,7 @@ const userStyleTemplate = x => `
 @namespace    ryan28561
 @version      1.0.0
 @author       ryan28561
-@updateURL    https://raw.githubusercontent.com/ryan28561/styles/master/canvas/output.user.css?token=AJEVBO655CNR5QS3TV2ZPVC7LJGKK
+@updateURL    https://raw.githubusercontent.com/ryan28561/styles/master/canvas/output.user.css
 @advanced color primary-color "Primary color" #360297
 ==/UserStyle== */
 @-moz-document domain("usu.instructure.edu") {
