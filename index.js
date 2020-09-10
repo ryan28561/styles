@@ -11,7 +11,7 @@ const userStyleTemplate = x => `
 @author       ryan28561
 @advanced color primary-color "Primary color" #360297
 ==/UserStyle== */
-@-moz-document domain("redmine.lightningkite.com") {
+@-moz-document domain("<<YOUR DOMAIN HERE>>") {
 ${x}
 }
 `
