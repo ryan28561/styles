@@ -5,14 +5,14 @@ var fs = require('fs')
 
 const userStyleTemplate = x => `
 /* ==UserStyle==
-@name         Redmine Dark
+@name         Canvas Dark
 @namespace    ryan28561
 @version      1.0.0
 @author       ryan28561
 @updateURL    https://raw.githubusercontent.com/ryan28561/styles/master/canvas/output.user.css
 @advanced color primary-color "Primary color" #360297
 ==/UserStyle== */
-@-moz-document domain("usu.instructure.edu") {
+@-moz-document domain("*.instructure.edu") {
 ${x}
 }
 `
