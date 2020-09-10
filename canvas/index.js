@@ -12,7 +12,7 @@ const userStyleTemplate = x => `
 @updateURL    https://raw.githubusercontent.com/ryan28561/styles/master/canvas/output.user.css
 @advanced color primary-color "Primary color" #360297
 ==/UserStyle== */
-@-moz-document domain("*.instructure.edu") {
+@-moz-document domain("*.instructure.com") {
 ${x}
 }
 `
