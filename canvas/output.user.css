@@ -1,0 +1,14 @@
+
+/* ==UserStyle==
+@name         Redmine Dark
+@namespace    ryan28561
+@version      1.0.0
+@author       ryan28561
+@advanced color primary-color "Primary color" #360297
+==/UserStyle== */
+@-moz-document domain("redmine.lightningkite.com") {
+body {
+  background-color: #212121;
+  color: #efefef; }
+
+}
