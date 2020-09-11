@@ -32,4 +32,100 @@ body {
 footer div {
   display: none; }
 
+#breadcrumbs {
+  background-color: #212121; }
+  #breadcrumbs > ul > li + li:last-of-type a {
+    color: #efefef; }
+
+.header-bar {
+  padding-top: 12px;
+  border-color: #555;
+  background-color: #212121;
+  color: #efefef; }
+  .header-bar span {
+    color: #efefef; }
+
+.item-group-container {
+  background-color: #212121;
+  color: #efefef; }
+
+.item-group-condensed .ig-header {
+  background-color: #333;
+  color: #efefef;
+  border-color: #555; }
+
+.ig-list .ig-row {
+  background-color: #212121 !important;
+  color: #efefef !important;
+  border-color: #555 !important; }
+  .ig-list .ig-row .ig-empty-msg {
+    color: #ddd; }
+  .ig-list .ig-row a.ig-title {
+    color: #fff; }
+
+.accessible-toggler {
+  color: #efefef; }
+
+select.ic-Input,
+textarea.ic-Input,
+input[type="text"].ic-Input,
+input[type="password"].ic-Input,
+input[type="datetime"].ic-Input,
+input[type="datetime-local"].ic-Input,
+input[type="date"].ic-Input,
+input[type="month"].ic-Input,
+input[type="time"].ic-Input,
+input[type="week"].ic-Input,
+input[type="number"].ic-Input,
+input[type="email"].ic-Input,
+input[type="url"].ic-Input,
+input[type="search"].ic-Input,
+input[type="tel"].ic-Input,
+input[type="color"].ic-Input,
+.uneditable-input.ic-Input {
+  background-color: #ffffff11;
+  color: #efefef;
+  border-color: #555; }
+  select.ic-Input:focus,
+  textarea.ic-Input:focus,
+  input[type="text"].ic-Input:focus,
+  input[type="password"].ic-Input:focus,
+  input[type="datetime"].ic-Input:focus,
+  input[type="datetime-local"].ic-Input:focus,
+  input[type="date"].ic-Input:focus,
+  input[type="month"].ic-Input:focus,
+  input[type="time"].ic-Input:focus,
+  input[type="week"].ic-Input:focus,
+  input[type="number"].ic-Input:focus,
+  input[type="email"].ic-Input:focus,
+  input[type="url"].ic-Input:focus,
+  input[type="search"].ic-Input:focus,
+  input[type="tel"].ic-Input:focus,
+  input[type="color"].ic-Input:focus,
+  .uneditable-input.ic-Input:focus {
+    background-color: #00000011; }
+
+.list-view a.active {
+  color: #212121;
+  border-color: #212121; }
+
+.ic-Table.ic-Table--hover-row tbody tr:hover,
+.ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-neutral:hover,
+.ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-success:hover,
+.ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-alert:hover,
+.ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-danger:hover {
+  background-color: #333; }
+
+table.summary td,
+table.summary tbody th {
+  background-color: #212121; }
+
+#GradeSummarySelectMenuGroup span, #GradeSummarySelectMenuGroup svg {
+  color: #efefef; }
+
+#GradeSummarySelectMenuGroup select {
+  background-color: #ffffff11 !important;
+  color: #efefef !important;
+  border-color: #555 !important; }
+
 }

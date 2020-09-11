@@ -4,7 +4,12 @@ $surface2: #333;
 
 $border: #555;
 
+$foreground0: #fff; // Bold
 $foreground1: #efefef;
+$foreground2: #ddd;
+
+$inputbackground: #ffffff11; // Translucent white
+$inputbackgroundfocus: #00000011; // Translucent black
 
 @mixin fix {
   background-color: $surface1;
@@ -36,4 +41,112 @@ body {
 
 footer div {
   display: none;
+}
+
+
+
+// Breadcrumbs
+#breadcrumbs {
+  background-color: $surface1;
+  &>ul>li+li:last-of-type a {
+    color: $foreground1;
+  }
+}
+
+// Home page
+.header-bar {
+  padding-top: 12px;
+  border-color: $border;
+  background-color: $surface1;
+  color: $foreground1;
+  span {
+    color: $foreground1;
+  }
+}
+
+.item-group-container {
+  background-color: $surface1;
+  color: $foreground1;
+}
+
+.item-group-condensed .ig-header {
+  background-color: $surface2;
+  color: $foreground1;
+  border-color: $border;
+}
+
+.ig-list .ig-row {
+  background-color: $surface1 !important;
+  color: $foreground1 !important;
+  border-color: $border !important;
+  .ig-empty-msg {
+    color: $foreground2;
+  }
+  a.ig-title {
+    color: $foreground0;
+  }
+}
+
+.accessible-toggler {
+  color: $foreground1;
+}
+
+
+// Inputs
+select.ic-Input,
+textarea.ic-Input,
+input[type="text"].ic-Input,
+input[type="password"].ic-Input,
+input[type="datetime"].ic-Input,
+input[type="datetime-local"].ic-Input,
+input[type="date"].ic-Input,
+input[type="month"].ic-Input,
+input[type="time"].ic-Input,
+input[type="week"].ic-Input,
+input[type="number"].ic-Input,
+input[type="email"].ic-Input,
+input[type="url"].ic-Input,
+input[type="search"].ic-Input,
+input[type="tel"].ic-Input,
+input[type="color"].ic-Input,
+.uneditable-input.ic-Input {
+  background-color: $inputbackground;
+  color: $foreground1;
+  border-color: $border;
+  &:focus {
+    background-color: $inputbackgroundfocus;
+  }
+
+}
+
+// Sidebar
+.list-view a.active {
+  color: $surface1;
+  border-color: $surface1;
+}
+
+// Table
+.ic-Table.ic-Table--hover-row tbody tr:hover,
+.ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-neutral:hover,
+.ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-success:hover,
+.ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-alert:hover,
+.ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-danger:hover {
+  background-color: $surface2;
+}
+
+table.summary td,
+table.summary tbody th {
+  background-color: $surface1;
+}
+
+// Grades
+#GradeSummarySelectMenuGroup {
+  span, svg {
+    color: $foreground1;
+  }
+  select {
+    background-color: $inputbackground !important;
+    color: $foreground1 !important;
+    border-color: $border !important;
+  }
 }
