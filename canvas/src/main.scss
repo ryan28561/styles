@@ -1,9 +1,39 @@
 $primary: #002288;
 $surface1: #212121;
+$surface2: #333;
+
+$border: #555;
 
 $foreground1: #efefef;
 
-body {
+@mixin fix {
   background-color: $surface1;
   color: $foreground1;
+}
+
+body {
+  @include fix;
+}
+
+// Dashboard
+.ic-Dashboard-header__layout {
+  @include fix;
+}
+
+.ic-DashboardCard {
+  background-color: $surface2;
+  color: $foreground1;
+}
+.ic-DashboardCard__header-subtitle,
+.ic-DashboardCard__header-term {
+  color: $foreground1;
+}
+.ic-DashboardCard__header_content {
+  background-color: $surface2;
+  color: $foreground1;
+  border-color: $border;
+}
+
+footer div {
+  display: none;
 }

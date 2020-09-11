@@ -12,4 +12,24 @@ body {
   background-color: #212121;
   color: #efefef; }
 
+.ic-Dashboard-header__layout {
+  background-color: #212121;
+  color: #efefef; }
+
+.ic-DashboardCard {
+  background-color: #333;
+  color: #efefef; }
+
+.ic-DashboardCard__header-subtitle,
+.ic-DashboardCard__header-term {
+  color: #efefef; }
+
+.ic-DashboardCard__header_content {
+  background-color: #333;
+  color: #efefef;
+  border-color: #555; }
+
+footer div {
+  display: none; }
+
 }
